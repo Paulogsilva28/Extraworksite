@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+
+<body>
+    <div class="login-dark">
+        <form method="post" action="inc/cadastro.php" autocomplete="on">
+            <small>
+                <a href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 40 40">
+                        <path fill="currentColor" d="M15.269 28.146a.498.498 0 0 1-.36-.153L7.55 20.362a.498.498 0 0 1 0-.693l7.391-7.662a.5.5 0 1 1 .72.693l-7.056 7.315l7.024 7.284a.5.5 0 0 1-.36.847"/>
+                        <path fill="currentColor" d="M32.09 20.516H7.91a.5.5 0 0 1 0-1h24.18a.5.5 0 0 1 0 1"/>
+                    </svg>
+                    Voltar
+                </a>
+            </small>
+            <h2 class="text-center">Cadastre-se</h2>
+            <div class="illustration">
+                <i class="icon ion-ios-person-outline"></i>
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="nome" placeholder="Nome" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="email" name="email" placeholder="E-mail" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="telefone" placeholder="Telefone" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="genero" class="labelinput">Você é Prest.Serviço ou Contratante?</label>
+                <div class="inputbox">
+                    <div>
+                        <input type="radio" id="Contratante" name="genero" value="Contratante" class="form-check-input">
+                        <label for="Contratante" class="form-check-label">Contratante</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Prest_Servico" name="genero" value="Prest.Serviço" class="form-check-input">
+                        <label for="Prest_Servico" class="form-check-label">Prest.Serviço</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input class="form-control" type="date" name="datanascimento" placeholder="Data de Nascimento" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="cidade" placeholder="Cidade" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" name="senha" placeholder="Senha" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" name="check-senha" placeholder="Repita sua Senha" autocomplete="off">
+            </div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Realizar Cadastro</button></div>
+            <div class="form-group">
+                <a class="btn btn-block btn-register" href="login.html">Fazer Login</a>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

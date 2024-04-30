@@ -1,0 +1,171 @@
+
+body{
+    background-image: linear-gradient(
+    1200deg, rgb(34,34,34), #240746
+    );
+    color: white;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+   
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+.logo{
+    display: flex ;
+    width: 50px; /* define a largura como 50 pixels */
+    height: 60px; /* define a altura como 50 pixels */
+    justify-content: flex-end;
+   
+   
+}
+.logo2{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+#title{
+    flex-direction: column;
+    line-height: 20px;
+   
+}
+li{
+    display: inline-block;
+    margin: 30px;
+}
+a{
+    color: white;
+}
+a :hover{
+     color: rgb(132, 14, 201);
+     transition: 0.3 all;
+}
+#Inscreva-se-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+#Inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+h1{
+    font-weight: 600;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: arial;
+}
+span{
+    color: rgb(132, 14, 201);
+}
+p{
+    line-height: 20px;
+    max-width: 600px;
+    font-family: sans-serif;
+}
+img{
+    width: 480px;
+    margin-left: 80px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+form [type="submit"]{
+    height: 45px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+
+.serviços{
+    padding: 40px 4%;
+
+
+}
+.serviços-box{
+    flex: 1; /* Distribuir o espaço igualmente entre as caixas */
+    background-color: transparent; /* Cor de fundo das caixas */
+    padding: 20px; /* Espaçamento interno das caixas */
+    margin: 10px; /* Margem ao redor das caixas */
+    border: 2px solid rgb(132, 14, 201);
+}
+.flex{
+    display: flex;
+}
+.txt-serviços{
+    text-align: center;
+    font-size: 40px;
+    padding: 60px ;
+}
+.title{
+    color: rgb(132, 14, 201);
+}
+/* Categoria Sobre */
+.sobre-extrawork{
+    display: flex;
+}
+.img-sobre{
+    margin-top: 80px;
+    margin-right: 60px;
+}
+.box-sobre{
+    margin-top: 220px; /* Espaço acima do texto */
+    text-align: justify;
+           
+}
+ /*contatos*/
+ .contato{
+    display: inline-block;
+
+
+
+
+    font-weight: bold;
+    margin-bottom: 100px;}
+/* Rodapé */
+.container{
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+

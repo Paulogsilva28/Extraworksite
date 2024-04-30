@@ -1,0 +1,117 @@
+.login-dark {
+    height:1000px;
+    background-image: linear-gradient(1200deg, rgb(34, 34, 34), #240746);
+    background-size:cover;
+    position:relative;
+  }
+  
+  .login-dark form {
+    max-width:480px;
+    width:90%;
+    background-color:#00000036;
+    padding:40px;
+    border-radius:4px;
+    transform:translate(-50%, -50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:#fff;
+    box-shadow:3px 3px 4px rgba(0,0,0,0.2);
+    border: 1px solid #840ec9;
+  }
+
+  .login-dark form small a {
+    color: #FFF;
+    opacity: .5;
+    text-decoration: none;
+    transition: .3s ease;
+  }
+
+  .login-dark form small a:hover {
+    opacity: .8;
+    transition: .3s ease;
+  }
+  
+  .login-dark .illustration {
+    text-align:center;
+    padding:15px 0 20px;
+    font-size:100px;
+    color:#840ec9;
+  }
+  
+  .login-dark form .form-control {
+    background:none;
+    border:none;
+    border-bottom:1px solid #FFF;
+    border-radius:0;
+    box-shadow:none;
+    outline:none;
+    color:#FFF;
+  }
+
+  .login-dark form .form-control::placeholder {
+    color: #FFF;
+  }
+
+  .login-dark form .inputbox {
+    display: flex;
+    gap: 48px;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+  }
+  
+  .login-dark form .btn-primary {
+    background-image: linear-gradient(1200deg, #46177b, #840ec9);
+    border:none;
+    border-radius:4px;
+    padding:11px;
+    box-shadow:none;
+    margin-top:26px;
+    text-shadow:none;
+    outline:none;
+    transition: 1s ease;
+  }
+  
+  .login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+    background-image: linear-gradient(1200deg, #840ec9, #46177b);
+    transition: 1s ease;
+    outline:none;
+  }
+  
+  .login-dark form .forgot {
+    display:block;
+    text-align:center;
+    font-size:14px;
+    color:#FFF;
+    opacity:0.8;
+    text-decoration:none;
+  }
+  
+  .login-dark form .forgot:hover, .login-dark form .forgot:active {
+    opacity:1;
+    text-decoration:none;
+  }
+  
+  .login-dark form .btn-primary:active {
+    transform:translateY(1px);
+  }
+
+  .login-dark form .btn-register {
+    margin-top: 48px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    opacity: .5;
+    transition: .3s ease;
+  }
+
+  .login-dark form .btn-register:active, .login-dark form .btn-register:hover {
+    transition: .3s ease;
+    opacity: 8;
+  } 
+  
+  /* Estilizando o calendário */
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color-scheme: dark;
+  }
